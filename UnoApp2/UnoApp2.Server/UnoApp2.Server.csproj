@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>$(DotNetVersion)</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <EnableUnoCSMUsings>false</EnableUnoCSMUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnoApp2.DataContracts\UnoApp2.DataContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+</Project>
